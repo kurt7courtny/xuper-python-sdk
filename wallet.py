@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import ttk
 import xuper
 import json
-sdk = xuper.XuperSDK("http://localhost:8098", "xuper")
+sdk = xuper.XuperSDK("http://106.14.180.178:8098", "xuper")
 sdk.readkeys('data/keys')
 
 def make_menus():
